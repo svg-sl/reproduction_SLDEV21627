@@ -1,4 +1,3 @@
-# FROM artifactory-dockerhub.cloud.capitalone.com/alpine:3.17
 FROM alpine:3.17 
 
 RUN apk update && \
@@ -7,7 +6,7 @@ RUN apk update && \
     pip install --ignore-installed pipenv gunicorn flask python-json-logger requests exceptiongroup && \
     pip install "sealights-python-agent==2.2.4"
 
-    
+
 WORKDIR /app
 
 # COPY Pipfile Pipfile.lock /app/

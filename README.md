@@ -34,6 +34,7 @@ Opening a component test stage works, but coverage is not correctly shown:
 
 ```bash
 # While the container is still running, start a test stage. In the dashboard, see both the Unit Test stage and the Component test stage are open
+pipenv run sl-python start --labid tryout-python-gunicorn-local --teststage "component test" --token $SL_TOKEN_POC
 
 # Run a test
 curl localhost:8080/example 
@@ -42,3 +43,4 @@ curl localhost:8080/health
 # Close the test stage
 pipenv run sl-python end --token $SL_TOKEN_POC
 ```
+

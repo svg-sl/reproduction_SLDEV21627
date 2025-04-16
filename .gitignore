@@ -1,0 +1,62 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.env/
+.venv/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+
+# Logs
+*.log
+logs/
+gunicorn-access.log
+gunicorn-error.log
+
+# Database files
+*.sqlite3
+*.db
+
+# Environment variables and secrets
+.env
+*.env
+.secret*
+
+# Project specific (keeping your existing entries)
+sltoken*
+buildSessionId*
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# Jupyter Notebook
+.ipynb_checkpoints

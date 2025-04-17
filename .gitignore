@@ -44,6 +44,7 @@ gunicorn-error.log
 # Project specific (keeping your existing entries)
 sltoken*
 buildSessionId*
+*scratch*
 
 # OS specific files
 .DS_Store
